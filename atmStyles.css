@@ -1,0 +1,141 @@
+body{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  display: grid;
+  grid-template-columns: .5fr;
+  grid-template-rows: .2fr;
+  grid-template-areas:
+      "mainH1"
+      "form"
+      "element"
+  ;
+  background-color: pink;
+  color: pink;
+  padding: 25px;
+}
+
+.element{
+  grid-area: element;
+  height: 30px;
+  width:30px;
+  background-color: white;
+}
+
+/* .navbar{
+  grid-area: nav;
+  background-color: rgb(65,182,230);
+  border-radius: 50px;
+  
+} */
+
+.mainH1{
+  grid-area:mainH1;
+  color: rgb(65,182,230);
+  font-family: 'Tourney', cursive;
+  font-weight:bolder;
+  font-size: 2.5rem;
+  margin-left: 25px;
+}
+
+
+.form{
+  grid-area:form;
+  border-radius: 25px;
+  font-size: .8rem;
+  padding: 5px;
+  margin-right: 50px;
+  text-align: center;
+  background-color: rgb(65,182,230)
+}
+
+button {
+    background-color: white;
+    margin: 15px;
+    border: 2px solid;
+    border-color: rgb(65,182,230);
+    border-radius: 10px;
+    width: 150px;
+    color: rgb(65,182,230);
+}
+
+.deposit-btn{
+  background-color: white;
+    margin: 15px;
+    border: 2px solid;
+    border-color: black;
+    border-radius: 10px;
+    width: 150px;
+    color: rgb(65,182,230);
+}
+
+.deposit-btn:hover{
+    background-color: green;
+    border: 2px solid white;
+    border-color: black;
+    border-radius: 10px;
+    width: 150px;
+    color: white;
+}
+
+
+.withdrawl-btn{
+    background-color: white;
+    margin: 15px;
+    border: 2px solid;
+    border-color: black;
+    border-radius: 10px;
+    width: 150px;
+    color: rgb(65,182,230);
+}
+
+.submit-btn{
+  margin: 10px;
+}
+
+.withdrawl-btn:hover{
+  background-color: red;
+  border: 2px solid white;
+  border-color: black;
+  border-radius: 10px;
+  width: 150px;
+  color: white;
+}
+
+#total,
+.choice{
+  font-size: 1.2rem;
+  margin: 5px;
+  height: 20vh;
+
+}
+
+#total{
+  font-size: 1.8rem;
+  color: white;
+}
+
+#total:hover{
+  color:greenyellow;
+
+}
+
+#mode-select{
+  margin-left: 10px
+}
+
+.bg-img{
+  z-index:-1;
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 100%;
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: 100%;
+  opacity: .5;
+  /* Set up positioning */
+  position: fixed;
+  top: -15;
+  left: 200px;
+}
+
+
