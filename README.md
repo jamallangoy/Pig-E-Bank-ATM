@@ -1,6 +1,6 @@
 # Pig-E-Bank-ATM
 
-<img src="https://cdn.pixabay.com/photo/2020/04/24/06/46/piggy-money-bank-5085515_1280.png" />
+<img src="https://cdn.pixabay.com/photo/2020/04/24/06/46/piggy-money-bank-5085515_1280.png" style=height: 100px, width: 100px  />
 
 ## Version 1 - Week 15: Working with Simple Components (MIT XPro, August 2021)
 
