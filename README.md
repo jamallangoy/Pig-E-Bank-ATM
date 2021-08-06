@@ -15,8 +15,6 @@ This is a basic "ATM Machine".  Using css grids and a background image, I've rep
 3) Drag and drop "piggyBank.html" into a new tab
 4) Innovate it and teach us what you did and how you did it!!!
 
-P.S. Please do not forget to register to MapBox in order to get an API key....
-
 
 # Documentation
 
